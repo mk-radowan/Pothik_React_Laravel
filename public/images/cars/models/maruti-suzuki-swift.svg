@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#3b82f6"/>
+    <stop offset="100%" style="stop-color:#0f172a"/>
+  </linearGradient></defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <text x="300" y="70" text-anchor="middle" fill="#fff" font-family="Segoe UI,sans-serif" font-size="26" font-weight="700">Maruti Suzuki Swift</text>
+  <text x="300" y="105" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-family="Segoe UI,sans-serif" font-size="16">Hatchback · Pothik</text>
+  <path d="M125 270h350l-28-65H195l-28 65zm38-68c0-20 16-36 36-36s36 16 36 36h72c0-20 16-36 36-36s36 16 36 36h40l26 68H137l26-68z" fill="rgba(255,255,255,0.88)"/>
+  <circle cx="205" cy="275" r="30" fill="#111"/><circle cx="205" cy="275" r="14" fill="#94a3b8"/>
+  <circle cx="395" cy="275" r="30" fill="#111"/><circle cx="395" cy="275" r="14" fill="#94a3b8"/>
+</svg>

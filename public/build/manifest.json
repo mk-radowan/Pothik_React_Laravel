@@ -1,0 +1,60 @@
+{
+  "_CarsPage-B4bBwHQq.js": {
+    "file": "assets/CarsPage-B4bBwHQq.js",
+    "name": "CarsPage",
+    "imports": [
+      "_client-BRakyvA4.js"
+    ]
+  },
+  "_Index-BdGUp4Ey.js": {
+    "file": "assets/Index-BdGUp4Ey.js",
+    "name": "Index",
+    "imports": [
+      "_client-BRakyvA4.js"
+    ]
+  },
+  "_client-BRakyvA4.js": {
+    "file": "assets/client-BRakyvA4.js",
+    "name": "client"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DZArKG0n.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/admin/app.jsx": {
+    "file": "assets/app-DkJRK168.js",
+    "name": "app",
+    "src": "resources/js/admin/app.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Index-BdGUp4Ey.js",
+      "_client-BRakyvA4.js"
+    ]
+  },
+  "resources/js/app-inertia.jsx": {
+    "file": "assets/app-inertia-BrmyCHh0.js",
+    "name": "app-inertia",
+    "src": "resources/js/app-inertia.jsx",
+    "isEntry": true,
+    "imports": [
+      "_client-BRakyvA4.js",
+      "_CarsPage-B4bBwHQq.js",
+      "_Index-BdGUp4Ey.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-B9QDiPLH.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_client-BRakyvA4.js",
+      "_CarsPage-B4bBwHQq.js"
+    ]
+  }
+}

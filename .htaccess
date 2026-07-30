@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Avoid rewriting requests that already target /public.
+    RewriteCond %{REQUEST_URI} !^/public/
+
+    # Forward non-existent root paths to /public so assets and routes resolve.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
